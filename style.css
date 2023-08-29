@@ -1,0 +1,51 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0d0e0f, #413f40, #032e3c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.bg-img{
+    background-image: url("./images/head.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.featured-courses{
+  display:flex;
+  justify-content:center;
+}
+
+.center{
+  text-align: center;
+}
+
+.heading{
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card{
+  border-color: white;
+  background-color:beige;
+}
+
+.container2{
+  background-color: #413f40;
+}
+
+#contact{
+  background-color: #413f40;
+}
