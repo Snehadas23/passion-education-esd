@@ -39,7 +39,7 @@
 
 .card{
   border-color: white;
-  background-color:beige;
+  background-color:whitesmoke;
 }
 
 .container2{
@@ -48,4 +48,7 @@
 
 #contact{
   background-color: #413f40;
+}
+body{
+  background-color: white;
 }
